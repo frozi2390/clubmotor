@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Oct 06, 2023 at 06:59 AM
+=======
+-- Generation Time: Oct 05, 2023 at 11:00 AM
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -38,7 +42,12 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id_about`, `judul`, `isi`) VALUES
+<<<<<<< HEAD
 (1, 'About ALC', 'Anak Langit Club didirikan dengan tujuan menjadi wadah bagi para pecinta motor khususnya motor besar dengan berlandaskan keluargaan dan solidaritas. Selain itu club ini menjadi bantuan para masyarakat sekitar yang mengalami kesulitan. Anak Langit sudah te');
+=======
+(1, 'About ALC', 'Anak Langit Club didirikan dengan tujuan menjadi wadah bagi para pecinta motor khususnya motor besar dengan berlandaskan keluargaan dan solidaritas. Selain itu club ini menjadi bantuan para masyarakat sekitar yang mengalami kesulitan. Anak Langit sudah te'),
+(2, 'About ALC\r\n', 'Anak Langit Club didirikan dengan tujuan menjadi wadah bagi para pecinta motor khususnya motor besar dengan berlandaskan keluargaan dan solidaritas. Selain itu club ini menjadi bantuan para masyarakat sekitar yang mengalami kesulitan. Anak Langit sudah terkenal di seluruh indonesia bahkan masuk sinetron.');
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 
 -- --------------------------------------------------------
 
@@ -60,6 +69,7 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`id`, `username`, `password`, `email`) VALUES
 (1, 'admin', 'admin', 'hansen@gmail.com');
 
+<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
@@ -152,6 +162,8 @@ CREATE TABLE `profil` (
 INSERT INTO `profil` (`id_profil`, `isi`) VALUES
 (1, 'Club ini hanya sebatas komunitas pencinta motor besar, yang bertujuan menyalurkan hobi dan kegabutannya kepada sepeda motor , kelebihan dari club ini adalah membantu masyarakat dalam mengatasi permasalahan yang ada dan gotoroyong open donasi bagi yang membutuhkan\r\n\r\n');
 
+=======
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 --
 -- Indexes for dumped tables
 --
@@ -169,6 +181,7 @@ ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `artikel`
 --
 ALTER TABLE `artikel`
@@ -193,6 +206,8 @@ ALTER TABLE `profil`
   ADD PRIMARY KEY (`id_profil`);
 
 --
+=======
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -200,13 +215,18 @@ ALTER TABLE `profil`
 -- AUTO_INCREMENT for table `about`
 --
 ALTER TABLE `about`
+<<<<<<< HEAD
   MODIFY `id_about` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+=======
+  MODIFY `id_about` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 
 --
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+<<<<<<< HEAD
 
 --
 -- AUTO_INCREMENT for table `artikel`
@@ -231,6 +251,8 @@ ALTER TABLE `produk`
 --
 ALTER TABLE `profil`
   MODIFY `id_profil` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+=======
+>>>>>>> 1385cb14f12347cf2290df483f7600c5f18bd2ea
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
