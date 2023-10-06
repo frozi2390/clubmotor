@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])){
 <html lang="en">
 
 <head>
-    <title>Datta Able Free Bootstrap 4 Admin Template</title>
+    <title>Anak Langit Club</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -29,7 +29,7 @@ if (!isset($_SESSION['username'])){
     <meta name="author" content="CodedThemes"/>
 
     <!-- Favicon icon -->
-    <link rel="icon" href="asset-panel/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
     <!-- fontawesome icon -->
     <link rel="stylesheet" href="asset-panel/fonts/fontawesome/css/fontawesome-all.min.css">
     <!-- animation css -->
@@ -43,11 +43,11 @@ if (!isset($_SESSION['username'])){
 
 <body>
     <!-- [ Pre-loader ] start -->
-    <div class="loader-bg">
+    <!-- <div class="loader-bg">
         <div class="loader-track">
             <div class="loader-fill"></div>
         </div>
-    </div>
+    </div> -->
     <!-- [ Pre-loader ] End -->
     <!-- [ navigation menu ] start -->
     <nav class="pcoded-navbar">
@@ -66,7 +66,7 @@ if (!isset($_SESSION['username'])){
                         <label>Navigation</label>
                     </li>
                     <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item active">
-                        <a href="index.index-panel.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                        <a href="index-panel.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                     </li>
                    
                     <li class="nav-item pcoded-menu-caption">
@@ -79,7 +79,7 @@ if (!isset($_SESSION['username'])){
                         <a href="profil-panel.php" class="nav-link "><span class="pcoded-micon"><i class="fas fa-user"></i></span><span class="pcoded-mtext">Profil</span></a>
                     </li>
                     <li data-username="Table bootstrap datatable footable" class="nav-item">
-                        <a href="artikel.panel" class="nav-link "><span class="pcoded-micon"><i class="fas fa-newspaper"></i></span><span class="pcoded-mtext">Artikel</span></a>
+                        <a href="artikel-panel.php" class="nav-link "><span class="pcoded-micon"><i class="fas fa-newspaper"></i></span><span class="pcoded-mtext">Artikel</span></a>
                     </li>
                     <li data-username="Table bootstrap datatable footable" class="nav-item">
                         <a href="galeri-panel.php" class="nav-link "><span class="pcoded-micon"><i class="fas fa-images"></i></span><span class="pcoded-mtext">Galeri</span></a>

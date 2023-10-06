@@ -306,6 +306,14 @@ p.text-muted {
   border-radius: 0;
 }
 
+
+/* ============================================
+            About 
+  =============================================*/
+  /* .pcoded-main-container .button-about i{
+    font-size: 15px;
+  } */
+
 /* ==========  scrollbar End  =========== */
 .scroll-y {
   z-index: 1027;
